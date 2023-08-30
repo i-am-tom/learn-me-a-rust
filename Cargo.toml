@@ -1,4 +1,5 @@
 [workspace]
 members = [
-  "the-rust-programming-language/01-getting-started"
+  "the-rust-programming-language/01-getting-started",
+  "the-rust-programming-language/02-programming-a-guessing-game"
 ]
