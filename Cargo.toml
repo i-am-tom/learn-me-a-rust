@@ -1,0 +1,4 @@
+[workspace]
+members = [
+  "the-rust-programming-language/01-getting-started"
+]
