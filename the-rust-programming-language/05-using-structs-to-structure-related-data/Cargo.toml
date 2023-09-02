@@ -1,0 +1,4 @@
+[package]
+name = "the-rust-programming-language-05-using-structs-to-structure-related-data"
+version = "0.1.0"
+edition = "2021"
