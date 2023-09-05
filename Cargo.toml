@@ -4,5 +4,6 @@ members = [
   "the-rust-programming-language/02-programming-a-guessing-game",
   "the-rust-programming-language/03-common-programming-concepts",
   "the-rust-programming-language/04-understanding-ownership",
-  "the-rust-programming-language/05-using-structs-to-structure-related-data"
+  "the-rust-programming-language/05-using-structs-to-structure-related-data",
+  "the-rust-programming-language/06-enums-and-pattern-matching"
 ]
