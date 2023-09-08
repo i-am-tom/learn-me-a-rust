@@ -1,0 +1,4 @@
+[package]
+name = "the-rust-programming-language-07-managing-growing-projects-with-packages-crates-and-modules"
+version = "0.1.0"
+edition = "2021"
