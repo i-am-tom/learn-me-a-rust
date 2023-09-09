@@ -6,5 +6,6 @@ members = [
   "the-rust-programming-language/04-understanding-ownership",
   "the-rust-programming-language/05-using-structs-to-structure-related-data",
   "the-rust-programming-language/06-enums-and-pattern-matching",
-  "the-rust-programming-language/07-managing-growing-projects-with-packages-crates-and-modules"
+  "the-rust-programming-language/07-managing-growing-projects-with-packages-crates-and-modules",
+  "the-rust-programming-language/08-common-collections"
 ]
