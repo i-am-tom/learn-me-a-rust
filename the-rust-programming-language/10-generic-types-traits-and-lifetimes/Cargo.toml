@@ -1,0 +1,4 @@
+[package]
+name = "the-rust-programming-language-10-generic-types-traits-and-lifetimes"
+version = "0.1.0"
+edition = "2021"
