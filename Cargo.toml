@@ -9,5 +9,6 @@ members = [
   "the-rust-programming-language/07-managing-growing-projects-with-packages-crates-and-modules",
   "the-rust-programming-language/08-common-collections",
   "the-rust-programming-language/09-error-handling",
-  "the-rust-programming-language/10-generic-types-traits-and-lifetimes"
+  "the-rust-programming-language/10-generic-types-traits-and-lifetimes",
+  "the-rust-programming-language/11-writing-automated-tests"
 ]
