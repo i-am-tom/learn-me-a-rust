@@ -4,8 +4,7 @@ use std::env;
 use std::process;
 
 fn main () {
-    let arguments: Vec<String> = env::args().collect();
-    let config = minigrep::Config::build(&arguments).unwrap_or_else(|error| {
+    let config = minigrep::Config::build(env::args()).unwrap_or_else(|error| {
         eprintln!("Oh no: {error}");
         process::exit(1);
     });

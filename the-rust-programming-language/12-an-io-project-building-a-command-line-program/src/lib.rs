@@ -25,16 +25,11 @@ pub struct Config {
 }
 
 impl Config {
-    pub fn build(arguments: &[String]) -> Result<Config, &'static str> {
-        let query =
-                arguments.get(0)
-                .ok_or("Not enough arguments!")?
-                .to_string();
+    pub fn build(mut arguments: impl Iterator<Item = String>) -> Result<Config, &'static str> {
+        arguments.next();
 
-        let file_path =
-                arguments.get(1)
-                .ok_or("Not enough arguments!")?
-                .to_string();
+        let query = arguments.next().ok_or("Didn't get a query string")?;
+        let file_path = arguments.next().ok_or("Not enough arguments!")?;
 
         let ignore_case = env::var("IGNORE_CASE").is_ok();
         Ok(Config { query, file_path, ignore_case })

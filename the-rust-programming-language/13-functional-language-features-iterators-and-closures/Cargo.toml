@@ -1,0 +1,4 @@
+[package]
+name = "the-rust-programming-language-13-functional-language-features-iterators-and-closures"
+version = "0.1.0"
+edition = "2021"
