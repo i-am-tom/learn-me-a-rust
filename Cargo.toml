@@ -12,5 +12,6 @@ members = [
   "the-rust-programming-language/10-generic-types-traits-and-lifetimes",
   "the-rust-programming-language/11-writing-automated-tests",
   "the-rust-programming-language/12-an-io-project-building-a-command-line-program",
-  "the-rust-programming-language/13-functional-language-features-iterators-and-closures"
+  "the-rust-programming-language/13-functional-language-features-iterators-and-closures",
+  "the-rust-programming-language/15-smart-pointers"
 ]
