@@ -1,0 +1,4 @@
+[package]
+name = "the-rust-programming-language-17-object-oriented-programming-features-of-rust"
+version = "0.1.0"
+edition = "2021"

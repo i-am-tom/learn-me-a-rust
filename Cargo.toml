@@ -14,5 +14,6 @@ members = [
   "the-rust-programming-language/12-an-io-project-building-a-command-line-program",
   "the-rust-programming-language/13-functional-language-features-iterators-and-closures",
   "the-rust-programming-language/15-smart-pointers",
-  "the-rust-programming-language/16-fearless-concurrency"
+  "the-rust-programming-language/16-fearless-concurrency",
+  "the-rust-programming-language/17-object-oriented-programming-features-of-rust"
 ]
